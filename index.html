@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Win a Walmart Gift Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #fff;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 360px;
+      width: 100%;
+    }
+    .container h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    .container p {
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 16px;
+    }
+    .gift-image {
+      width: 100%;
+      height: auto;
+      margin: 16px 0;
+      border-radius: 12px;
+    }
+
+    /* 🔥 Animation style */
+    .limited-offer {
+      color: #e60000;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 12px 0;
+      animation: flash 1s infinite, shake 2s infinite;
+    }
+
+    @keyframes flash {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.1; }
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-2px); }
+      50% { transform: translateX(2px); }
+      75% { transform: translateX(-2px); }
+    }
+
+    .cta-button {
+      background-color: #007bff;
+      color: white;
+      padding: 14px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 12px;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    .note {
+      color: red;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Win a Walmart Gift Card!</h1>
+    <p>Enter now for a chance to win a Walmart gift card worth up to $2,000!</p>
+    <img src="https://i.postimg.cc/DZQtgcj9/file-000000002628620a847eae70dd6d1561.png" alt="Walmart Gift Card" class="gift-image" />
+
+    <!-- عبارة عرض محدود مع وميض وحركة -->
+    <div class="limited-offer">⏳ Limited Time Offer!</div>
+    
+    <!-- زر CTA بالرابط الصحيح -->
+    <a href="https://singingfiles.com/show.php?l=0&u=2412193&id=69146" target="_blank">
+      <button class="cta-button">Claim Your Gift Card 🎁</button>
+    </a>
+
+    <p class="note">📱 Android Only | 🇺🇸 United States</p>
+  </div>
+</body>
+</html>
